@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
@@ -26,6 +26,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Z.Extra", "Z.Extra", "{42F6458E-5C86-4FA0-A6FC-F311B92A9D03}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Z.Extra.Mapper", "Z.Extra.Mapper\Z.Extra.Mapper.csproj", "{E326E102-21AC-4894-A2AB-DDC950FFCAD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTOs", "DTOs\DTOs.csproj", "{2E94FBEE-8558-498D-BE77-7696918B5573}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{E326E102-21AC-4894-A2AB-DDC950FFCAD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E326E102-21AC-4894-A2AB-DDC950FFCAD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E326E102-21AC-4894-A2AB-DDC950FFCAD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E94FBEE-8558-498D-BE77-7696918B5573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E94FBEE-8558-498D-BE77-7696918B5573}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E94FBEE-8558-498D-BE77-7696918B5573}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E94FBEE-8558-498D-BE77-7696918B5573}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -68,6 +74,7 @@ Global
 		{445E9CAA-171E-401A-9D2D-3BD6BECA4A4E} = {8B8848F0-5A83-4DE8-A6A7-5485671A30C7}
 		{F3E4C055-C4B6-49CB-A1A5-605D1199018B} = {DFC7B303-C292-4750-93B8-42A3551BBBA5}
 		{E326E102-21AC-4894-A2AB-DDC950FFCAD7} = {42F6458E-5C86-4FA0-A6FC-F311B92A9D03}
+		{2E94FBEE-8558-498D-BE77-7696918B5573} = {42F6458E-5C86-4FA0-A6FC-F311B92A9D03}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9D6FE4EF-E8F3-4B53-BBE9-E878AAEAB31F}
