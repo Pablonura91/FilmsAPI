@@ -1,4 +1,8 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Application.Films.Interfaces;
+using Application.Films.Services;
+using Domain.Films.Interfaces;
+using Infrastructure.Films.Repository;
+using Microsoft.EntityFrameworkCore;
 using Persistence.Films;
 
 namespace API.Films
@@ -23,8 +27,8 @@ namespace API.Films
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"))
                 );
 
-            //services.AddScoped<IGeneroRepository, GeneroRepository>();
-            //services.AddScoped<IGeneroService, GeneroService>();
+            services.AddScoped<IGeneroRepository, GeneroRepository>();
+            services.AddScoped<IGeneroService, GeneroService>();
 
 
         }
