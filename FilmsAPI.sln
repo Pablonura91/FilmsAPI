@@ -23,6 +23,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistence", "Persistence"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence.Films", "Persistence.Films\Persistence.Films.csproj", "{F3E4C055-C4B6-49CB-A1A5-605D1199018B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Z.Extra", "Z.Extra", "{42F6458E-5C86-4FA0-A6FC-F311B92A9D03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Z.Extra.Mapper", "Z.Extra.Mapper\Z.Extra.Mapper.csproj", "{E326E102-21AC-4894-A2AB-DDC950FFCAD7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +53,10 @@ Global
 		{F3E4C055-C4B6-49CB-A1A5-605D1199018B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3E4C055-C4B6-49CB-A1A5-605D1199018B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3E4C055-C4B6-49CB-A1A5-605D1199018B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E326E102-21AC-4894-A2AB-DDC950FFCAD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E326E102-21AC-4894-A2AB-DDC950FFCAD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E326E102-21AC-4894-A2AB-DDC950FFCAD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E326E102-21AC-4894-A2AB-DDC950FFCAD7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,6 +67,7 @@ Global
 		{757A77B5-DDBF-4F43-B15B-EEBDF2A2EF97} = {4E584A59-B4A2-444E-9ED9-81EF265941C8}
 		{445E9CAA-171E-401A-9D2D-3BD6BECA4A4E} = {8B8848F0-5A83-4DE8-A6A7-5485671A30C7}
 		{F3E4C055-C4B6-49CB-A1A5-605D1199018B} = {DFC7B303-C292-4750-93B8-42A3551BBBA5}
+		{E326E102-21AC-4894-A2AB-DDC950FFCAD7} = {42F6458E-5C86-4FA0-A6FC-F311B92A9D03}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9D6FE4EF-E8F3-4B53-BBE9-E878AAEAB31F}

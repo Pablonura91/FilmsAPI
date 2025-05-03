@@ -8,6 +8,17 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Application.Films\Application.Films.csproj" />
+    <ProjectReference Include="..\Infrastructure.Films\Infrastructure.Films.csproj" />
+    <ProjectReference Include="..\Persistence.Films\Persistence.Films.csproj" />
+    <ProjectReference Include="..\Z.Extra.Mapper\Z.Extra.Mapper.csproj" />
   </ItemGroup>
 
 </Project>
