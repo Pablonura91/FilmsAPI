@@ -1,11 +1,7 @@
 ﻿using Domain.Films.Entities;
+using Domain.Films.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using Persistence.Films;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Infrastructure.Films.Repository
 {
