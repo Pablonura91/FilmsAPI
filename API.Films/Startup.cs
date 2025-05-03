@@ -4,6 +4,7 @@ using Domain.Films.Interfaces;
 using Infrastructure.Films.Repository;
 using Microsoft.EntityFrameworkCore;
 using Persistence.Films;
+using Z.Extra.Mapper;
 
 namespace API.Films
 {
@@ -18,7 +19,7 @@ namespace API.Films
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+            services.AddAutoMapper(typeof(GeneroProfile));
 
             services.AddControllers();
             services.AddEndpointsApiExplorer();

@@ -14,6 +14,9 @@ namespace Z.Extra.Mapper
         public GeneroProfile()
         {
             CreateMap<Genero, GeneroGetAllDTO>().ReverseMap();
+            CreateMap<Genero, GeneroDTO>().ReverseMap();
+            CreateMap<Genero, GeneroCreateDTO>().ReverseMap();
+            CreateMap<Genero, GeneroUpdateDTO>().ReverseMap();
         }
     }
 }
