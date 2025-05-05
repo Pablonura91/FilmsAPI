@@ -19,7 +19,7 @@ namespace API.Films
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddAutoMapper(typeof(GeneroProfile));
+            services.AddAutoMapper(typeof(ProfileMarker));
 
             services.AddControllers();
             services.AddEndpointsApiExplorer();
@@ -30,6 +30,9 @@ namespace API.Films
 
             services.AddScoped<IGeneroRepository, GeneroRepository>();
             services.AddScoped<IGeneroService, GeneroService>();
+
+            services.AddScoped<IActorRepository, ActorRepository>();
+            services.AddScoped<IActorService, ActorService>();
 
 
         }

@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace API.Films.Controller
 {
     [ApiController]
-    [Route("api/generos")]
+    [Route("api/genero")]
     public class GenerosController : ControllerBase
     {
         private readonly IGeneroService _generoService;
